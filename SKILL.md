@@ -1,6 +1,6 @@
 ---
 name: clawbots
-description: AI agent FTP/SFTP toolkit - Upload, download, sync files with retry, dry-run, and connection management
+description: AI agent FTP/SFTP toolkit by @clawbots_ai
 ---
 
 # ClawBots
@@ -14,10 +14,10 @@ npm i -g clawbots
 - clawbots add - Add FTP/SFTP connection
 - clawbots connections - List connections
 - clawbots ping -c <name> - Test connection
-- clawbots upload -c <name> -l <local> -r <remote> [-R] - Upload
-- clawbots download -c <name> -r <remote> -l <local> [-R] - Download
+- clawbots upload -c <name> -l <local> -r <remote> - Upload file
+- clawbots download -c <name> -r <remote> -l <local> - Download file
 - clawbots sync -c <name> -l <local> -r <remote> - Sync directory
 
 ## Options
 - -R, --recursive - Recursive transfer
-- --dry-run - Preview changes without executing
+- --dry-run - Preview changes
